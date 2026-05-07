@@ -63,9 +63,9 @@ cd SQL-Injection-Simulator
 ### 2. Setup Backend
 
 ```bash
-cd backend
+cd server
 npm install
-npm start
+node index.js
 ```
 
 ### 3. Setup Frontend
@@ -73,7 +73,7 @@ npm start
 Open a new terminal window:
 
 ```bash
-cd frontend
+cd client
 npm install
 npm run dev
 ```
